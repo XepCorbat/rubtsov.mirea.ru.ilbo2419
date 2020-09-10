@@ -1,18 +1,20 @@
+package com.company;
+
 import java.lang.*;
 
-public class Dog {
+public class psina {
     private String name;
     private int age;
-    public Dog(String n, int a){
+    public psina(String n, int a){
         name = n;
         age = a;
     }
-    public Dog(String n){
+    public psina(String n){
         name = n;
         age = 0;
 
     }
-    public Dog(){
+    public psina(){
         name = "Pup";
         age = 0;
     }
